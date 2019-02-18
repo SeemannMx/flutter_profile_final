@@ -1,0 +1,53 @@
+name: flutter_profle_application
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+   sdk: flutter
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Special add custom icon
+  # 1. add library
+  # 2. add flutter icons
+  # 3. add assets image - icon
+  # 4. run: flutter pub get
+  # 5. run: flutter packages pub run flutter_launcher_icons:main (in project root directory)
+  flutter_launcher_icons: any
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/pet_icon.png"
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/img_cat_00.jpg
+    - assets/images/img_cat_01.jpg
+    - assets/images/img_cat_02.jpg
+    - assets/images/img_cat_03.jpg
+    - assets/images/img_cat_04.jpg
+    - assets/images/img_dog_00.jpg
+    - assets/images/img_dog_01.jpg
+    - assets/images/img_rabbit_00.jpg
+    - assets/images/img_rabbit_01.jpg
+    - assets/images/img_rabbit_02.jpg
+    - assets/images/img_rabbit_03.jpg
+    - assets/images/img_rabbit_04.jpg
+    - assets/images/img_rabbit_05.jpg
+    - assets/images/img_rabbit_06.jpg
+    - assets/images/img_rabbit_07.jpg
+    - assets/images/img_rabbit_08.jpg
+    - assets/icons/pet_icon.png
+    - assets/anim/konfetti.json
